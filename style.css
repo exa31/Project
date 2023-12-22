@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 235, 235);
+}
+a{
+    text-decoration: none;
+}
+.header{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex; 
+    background: linear-gradient(to top left , rgb(0, 0, 255),rgb(255, 3, 129));
+}
+.image-header{
+    width:15vw;
+    border: 5px solid white;
+    height:15vw;
+    margin: 15px 10vw;
+    border-radius: 100%;
+    display: inline-block;
+}
+.nama{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-top: 9%;
+    margin-bottom: 5px;
+    align-items: center;
+    color: aquamarine;
+    font-weight: bold;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+    color: rgb(234, 234, 47);
+}
+.download-cv{
+    color: white;
+    background-color: rgb(7, 123, 248);
+    border: 3px solid none;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 2vh 2vw;
+    margin: 5vh 0vw;
+    transform: scale(1);
+    transition: transform 1s;
+}
+.download-cv:hover{
+    background-color: black;
+    transform: scale(1.05);
+}
+.isi{
+    margin: 0 100px 50px;
+    text-align: justify;
+}
+.skill{
+    
+    margin-top:0 ;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+}
+.skill-html {
+    height: 0.5vw;
+    margin-top: 10px;
+    margin-right: 10vw;
+    background: linear-gradient(to right, rgb(255, 34, 0) 80%, rgb(231, 207, 207) 20%);
+    border-radius: 100px;
+    border: 1px solid ;
+}
+.skill-css {
+    height: 0.5vw;
+    margin-top: 10px;
+    margin-right: 10vw;
+    background: linear-gradient(to right, rgb(31, 68, 255) 70%, rgb(231, 207, 207) 35%);
+    border-radius: 100px;
+    border: 1px solid ;
+}
+.skill-js {
+    height: 0.5vw;
+    margin-top: 10px;
+    margin-right: 10vw;
+    background: linear-gradient(to right, rgb(245, 238, 12) 75%, rgb(231, 207, 207) 25%);
+    border-radius: 100px;
+    border: 1px solid ;
+}
+.skill-networking{
+    height: 0.5vw;
+    margin-top: 10px;
+    margin-right: 10vw;
+    background: linear-gradient(to right, rgb(16, 255, 132) 75%, rgb(231, 207, 207) 25%);
+    border-radius: 100px;
+    border: 1px solid ;    
+}
+ul{
+    padding: 0px 0px 0px 13px;
+}
+li{
+    padding: 2px 0;
+}
+.sertifikat{
+    color: black;
+}
+.contact{
+    display: flex;
+    width: auto;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact-icon{
+    width: 40px;
+    height: 40px;
+    margin-right:10px ;
+}
