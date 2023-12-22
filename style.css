@@ -12,6 +12,7 @@ a{
     padding: 0;
     box-sizing: border-box;
     display: flex; 
+    align-items: center;
     background: linear-gradient(to top left , rgb(0, 0, 255),rgb(255, 3, 129));
 }
 .image-header{
